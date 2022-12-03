@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.main .header{
+    position: absolute;
+    top:0px;
+    left: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.main .header ul{
+    display: flex;
+    list-style: none;
+}
+
+.main .header ul li a{
+    
+    padding-left: 20px;}
+.background{
+    width: 100%;
+    height: 100%;
+}
+.left{
+    position: absolute;
+    top: 30%;
+    left: 0;
+    width: 53%;
+}
+.right{
+    position: absolute;
+    top: 25.2%;
+    right: 0;
+    width: 53%;
+}
+.main p{
+    text-align: center;
+     font-size: 70px; 
+     font-weight: bold;
+     color: rgb(8, 8, 47);
+     position: absolute;
+     top: 20%;
+     left: 35%;
+}
+.history img{
+    width:2%;
+    position: relative;
+    top: 90px;
+    left: 150px;
+
+}
+.history .text{
+    justify-content: space-between;
+    position: relative;
+    top: 90px;
+    left: 300px;
+
+}
